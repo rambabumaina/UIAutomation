@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.test.Atomation.UIAutomation.customListener.RetryListner"/>
+  </listeners>
+  <test name="AddToCartTest(failed)">
+    <classes>
+      <class name="com.test.Atomation.UIAutomation.addToCart.TC001_FacebookLinkVerification">
+        <methods>
+          <include name="setup"/>
+          <include name="addToCart"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.Atomation.UIAutomation.addToCart.TC001_FacebookLinkVerification -->
+    </classes>
+  </test> <!-- AddToCartTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
